@@ -1,11 +1,12 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name="humps",
-    packages=[".", "tests"],
-    version="0.1.0",
+    packages=["humps", "tests"],
+    version="0.2.0",
     author="Erik Huizinga",
     author_email="huizinga.erik@gmail.com",
+    license='LGPL-3.0',
     url="https://github.com/erikhuizinga/humps",
     description="camelCase converter",
     long_description=
