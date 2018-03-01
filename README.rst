@@ -23,7 +23,7 @@ Python:
 
 .. code-block:: python
 
-  from humps import camel
+  from humps.camel import case
 
-  print(camel('Hello, World!'))
+  print(case('Hello, World!'))
   # Output: helloWorld
