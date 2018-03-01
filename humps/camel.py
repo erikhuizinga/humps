@@ -18,7 +18,7 @@
 """
 
 
-def camel(string: str) -> str:
+def case(string: str) -> str:
     """
     Convert string to camelCase. camelCase starts with a lower case alphabetic character, the rest of the string
     contains alphanumeric characters. Any character case in the input is ignored. Any spaces in the input capitalise

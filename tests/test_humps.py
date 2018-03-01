@@ -19,7 +19,7 @@
 
 import unittest
 
-from ..humps import camel
+from ..humps.camel import case
 
 
 class TestCamel(unittest.TestCase):
@@ -28,7 +28,7 @@ class TestCamel(unittest.TestCase):
 
         for bad_input in bad_inputs:
             with self.assertRaises(AssertionError):
-                camel(bad_input)
+                case(bad_input)
 
         input_string_expected = {
             '': '',
@@ -69,7 +69,7 @@ class TestCamel(unittest.TestCase):
         }
 
         for input_string, expected in input_string_expected.items():
-            self.assertEqual(expected, camel(input_string))
+            self.assertEqual(expected, case(input_string))
 
 
 if __name__ == '__main__':
