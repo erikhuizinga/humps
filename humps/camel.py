@@ -22,8 +22,7 @@ def case(string: str) -> str:
     """
     Convert string to camelCase. camelCase starts with a lower case alphabetic character, the rest of the string
     contains alphanumeric characters. Any character case in the input is ignored. Any spaces in the input capitalise
-    the following alphabetic character, except for the first alphabetic character. Any non-alphanumeric characters
-    are ignored.
+    the following character if alphabetic, except for the first character. Any non-alphanumeric characters are ignored.
 
     :param string: The input string.
     :return: The input converted to camelCase; empty ('') if there are no valid characters in the input string.

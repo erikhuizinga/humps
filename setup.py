@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="humps",
     packages=["humps", "tests"],
-    version="0.2.0",
+    version="0.2.1",
     author="Erik Huizinga",
     author_email="huizinga.erik@gmail.com",
     license='LGPL-3.0',
@@ -18,7 +18,7 @@ setup(
     "\n"
     "camelCase starts with a lower case alphabetic character, the rest of the string contains alphanumeric "
     "characters. Any character case in the input is ignored. Any spaces in the input capitalise the following "
-    "alphabetic character, except for the first alphabetic character. Any non-alphanumeric characters are ignored.",
+    "character if alphabetic, except for the first character. Any non-alphanumeric characters are ignored.",
     keywords=["camelcase", 'camel', 'case', "string", "conversion"],
     classifiers=[
         "Development Status :: 4 - Beta",
