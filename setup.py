@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="humps",
     packages=["humps", "tests"],
-    version="0.2.1",
+    version="0.2.2",
     author="Erik Huizinga",
     author_email="huizinga.erik@gmail.com",
     license='LGPL-3.0',
